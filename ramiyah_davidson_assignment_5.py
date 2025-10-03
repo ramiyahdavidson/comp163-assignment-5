@@ -1,3 +1,4 @@
+#variables for each 
 current_number = int(input("Pick a number 1 - 100"))
 step_count = 0
 #first loop
@@ -8,7 +9,6 @@ while current_number != 1:
     else: 
         current_number = current_number * 3 + 1
     step_count += 1
-  
-     
+#prints 1 everytime    
 print(1)
 print("Total Steps:", step_count)
