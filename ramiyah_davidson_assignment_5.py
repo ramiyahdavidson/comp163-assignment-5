@@ -27,3 +27,18 @@ if is_prime:
     print(f"{num_to_check} is prime")
 else:
     print(f"{num_to_check} is not prime (divisible by {divisor})")
+
+# Challenge 3
+print("    ", end="")
+# shows the columns
+for col_num in range(1,11):
+    print(f"{col_num:4}", end="")
+for row_num in range(1,11):
+    print(f"{row_num:2}", end=" ")
+    #nested loop to show both rows and columns
+    for col_num in range(1,11):
+        product = row_num * col_num
+        print(f"{product:4}", end="")
+    print()
+    
+
